@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS of NavBar */
+
+.nav
+{
+    width: 100%;
+    height: 80px;
+    background-color: #C66;
+}
+
+/* CSS of Box Content */
+
+.boxContent
+{
+    width: 65%;
+    min-height: 300px;
+    margin: 25px auto;
+}
+
+/* CSS of First Part */
+
+.firstPart
+{
+    display: flex;
+    min-height: 200px;
+}
+
+/* CSS of Part  Left */
+
+.partLeft
+{
+    flex: 2;
+    min-height: 100px;
+    padding: 20px;
+}
+
+.partLeft__illustration
+{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    border-radius: 8px;
+}
+
+.firstPart__description
+{
+    padding: 28px 0 5px;
+}
+
+.firstPart__description span
+{
+    color: #4B7BD9;
+}
+
+.firstPart__description h1
+{
+    font-weight: bold;
+    font-size: 50px;
+    margin: 18px 0;
+}
+
+.firstPart__description p
+{
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.firstPart__description .btn-link
+{
+    border: none;
+    font-size: 17px;
+    padding: 10px 20px;
+    background-color: #0156FB;
+    color: white;
+    border-radius: 5px;
+}
+
+/* CSS of Part  Right */
+
+.partRight
+{
+    flex: 1;
+    height: 100px;
+    padding: 20px;
+}
+
+.item
+{
+    display: flex;
+    margin-bottom: 26px;
+}
+
+.item__illustration
+{
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    flex: 1;
+    border-radius: 5px;
+}
+
+.item__description
+{
+    flex: 1;
+    padding-left: 18px;
+}
+
+.item__description span
+{
+    color: #CB5159;
+}
+
+.item__description h4
+{
+    margin: 18px 0;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/* CSS of Second Part */
+
+.secondPart
+{
+    margin-top: 60px;
+    clear: both;
+}
+
+/* CSS of Second Part  Row */
+
+.secondPart__row
+{
+    display: flex;
+    margin-top: 20px;
+}
+
+.card
+{
+    margin-right: 30px;
+    flex: 1;
+    min-height: 250px;
+}
+
+.card__illustration
+{
+    height: 230px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.card__description
+{
+    padding: 18px 0;
+}
+
+.card__description span
+{
+    color: #4B7BD9;
+}
+
+.card__description h3
+{
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.card__description a
+{
+    color: black;
+    font-weight: bold;
+}
+
+.card__description a:hover
+{
+    color: #4B7BD9;
+}
+
+/* CSS of Third Part */
+
+.thirdPart
+{
+    margin-top: 60px;
+}
+
+.thirdPart__row
+{
+    display: flex;
+}
+
+.thirdPart__left
+{
+    flex: 2;
+    padding: 20px 0;
+}
+
+.thirdPart__right
+{
+    flex: 1;
+}
+
+.item-illustration
+{
+    width: 25%;
+    height: 150px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.illustration
+{
+    height: 500px;
+    background-color: black;
+    border-radius: 5px;
+}
