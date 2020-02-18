@@ -1,16 +1,88 @@
-*{
+/* CSS General */
+
+*
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+a
+{
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: none;
+}
 
 /* CSS of NavBar */
+
+.logo
+{
+    font-size: 21px;
+    color: #4B7BD9;
+    font-weight: bold;
+}
 
 .nav
 {
     width: 100%;
-    height: 80px;
-    background-color: #C66;
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 50px;
+}
+
+.nav ul
+{
+    list-style: none;
+}
+
+.nav ul li
+{
+    display: inline-flex;
+    margin-right: 25px;
+}
+
+.nav ul li a
+{
+    color: black;
+    font-size: 18px;
+    transition: all .5s;
+}
+
+.nav ul li a:hover
+{
+    color: #4B7BD9;
+}
+
+.nav form
+{
+    display: flex;
+    width: 16%;
+}
+
+.nav form input
+{
+    width: 100%;
+    height: 32px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+}
+
+.nav form input:focus
+{
+    outline: none;
+}
+
+.nav form .btn-search
+{
+    border: none;
+    padding: 5px;
+    background-color: #0156FB;
+    color: white;
+    border-radius: 5px;
+    margin-left: -10px;
 }
 
 /* CSS of Box Content */
